@@ -1,0 +1,14 @@
+.id {
+  float: left;
+}
+
+.date {
+  float: right
+}
+
+.post {
+  border: 1px solid;
+  padding: 3px;
+}
+
+

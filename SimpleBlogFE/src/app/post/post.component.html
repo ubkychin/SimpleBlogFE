@@ -1,0 +1,9 @@
+<div class="post" *ngIf="post">
+  <p class="id"><em>id: {{post.id}}</em></p><p class="date">{{post.time | date: 'medium'}}</p>
+  <div style="clear: both"></div>
+  
+  <h2>{{post.title}}</h2>
+  <p>{{post.content}}</p>
+
+
+</div>

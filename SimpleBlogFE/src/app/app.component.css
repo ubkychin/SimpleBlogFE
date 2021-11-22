@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+}
+
+.posts {
+  width: 70%;
+  display:flex;
+  border: solid 2px;
+  min-height: 200px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.add-post {
+  width: 20%;
+  display: flex;
+  border: solid 1px;
+  min-height: 200px;
+  margin: 5px;
+  padding: 5px;
+}
+
+app-posts-list {
+  width:100%
+}

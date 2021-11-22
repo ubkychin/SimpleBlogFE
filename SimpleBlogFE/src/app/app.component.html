@@ -1,0 +1,9 @@
+My Blog
+<div class="container">
+  <div class="posts">
+    <app-posts-list [postsList] = "postsList"></app-posts-list>
+  </div>
+  <div class="add-post">
+    <app-new-post (newPostEvent)="addPost($event)"></app-new-post>
+  </div>
+</div>
