@@ -9,7 +9,7 @@ import { PostsService } from './services/posts.service';
 })
 export class AppComponent implements OnInit {
   postsList?: Post[];
-  title = 'Blog-FE';
+  title = 'SimpleBlogFE';
 
   constructor(private _postsService: PostsService) { }
 
